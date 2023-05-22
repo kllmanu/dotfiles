@@ -1,0 +1,17 @@
+[init]
+defaultBranch = main
+[core]
+excludesFile = "~/.gitexcludes"
+[user]
+name = Manuel Koell
+email = man.koell@gmail.com
+[diff]
+tool = vimdiff
+prompt = false
+[merge]
+tool = vimdiff
+prompt = false
+[tag]
+sort = version:refname
+[push]
+autoSetupRemote = true
