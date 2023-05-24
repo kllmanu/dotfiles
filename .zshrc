@@ -17,6 +17,7 @@ plugins=(
 	fzf fd
 	zoxide 
 	pyenv
+	poetry
 )
 
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
