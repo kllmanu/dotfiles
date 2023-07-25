@@ -69,7 +69,7 @@
   (setq
    org-startup-indented t
    org-indent-mode t
-   org-directory "~/org"
+   org-directory "~/Desktop/org"
    org-default-notes-file "~/Desktop/org/notes.org"
    org-archive-location "~/Desktop/org/archive.org::* ARCHIVE"
    org-agenda-window-setup 'only-window
