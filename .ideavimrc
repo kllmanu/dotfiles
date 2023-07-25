@@ -1,0 +1,10 @@
+source ~/.vimrc
+
+set which-key
+set commentary
+set NERDTree
+set surround
+
+set clipboard+=unnamed
+set scrolloff=5
+let mapleader=" "

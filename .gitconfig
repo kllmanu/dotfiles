@@ -1,0 +1,12 @@
+[init]
+defaultBranch = main
+
+[user]
+name = Manuel Koell
+email = man.koell@gmail.com
+
+[tag]
+sort = version:refname
+
+[push]
+autoSetupRemote = true

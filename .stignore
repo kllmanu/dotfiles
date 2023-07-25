@@ -1,0 +1,6 @@
+.*
+/[A-Z]*
+
+$RECYCLE.BIN
+node_modules
+vendor
