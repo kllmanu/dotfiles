@@ -1,10 +1,10 @@
 alias ..="cd .."
-alias ls='ls -h --group-directories-first'
+alias ls='ls -h --group-directories-first --color=auto'
 alias ll="ls -Al"
 alias l="ls -l"
 alias bis="beet import -s"
 alias gss="git status -s"
-alias grep="grep --ignore-case"
+alias grep="grep --ignore-case --color=auto"
 alias t="tree -I node_modules -I vendor --dirsfirst"
 alias tt="t -a"
 alias clip="xclip -selection clipboard -i"
