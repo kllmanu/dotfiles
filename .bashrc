@@ -105,11 +105,10 @@ if ! shopt -oq posix; then
 fi
 
 # fuzzy finder
-if [ -f /usr/share/doc/fzf/examples/key-bindings.bash ]; then
-    . /usr/share/doc/fzf/examples/key-bindings.bash
-fi
+test -f /usr/share/doc/fzf/examples/key-bindings.bash && source $_
 
-# cd with memory
-if [ -x /usr/bin/zoxide ]; then
-    eval "$(zoxide init bash)"
-fi
+# cd with history
+test -x /usr/bin/zoxide && eval "$(zoxide init bash)"
+
+# pandoc completion
+test -x /usr/bin/pandoc && eval "$(pandoc --bash-completion)"
