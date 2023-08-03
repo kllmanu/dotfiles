@@ -10,3 +10,6 @@ sort = version:refname
 
 [push]
 autoSetupRemote = true
+
+[core]
+excludesFile = ~/.gitexcludes
