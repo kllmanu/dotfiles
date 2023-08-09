@@ -1,6 +1,19 @@
-.*
-/[A-Z]*
+*
 
+!/Desktop
+!/Documents
+!/Downloads
+!/Pictures
+!/Videos
+!/Music
+!/Sites
+
+/*.desktop
+/*.lnk
+
+*.swp
+*.DS_Store
 $RECYCLE.BIN
+
 node_modules
 vendor
