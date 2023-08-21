@@ -45,7 +45,7 @@ alias t="tree"
 alias undo="git reset HEAD~1"
 alias cat="bat"
 alias yee="yee --ip=10.0.0.137"
-alias arch="ssh -t arch.local tmux new -As0"
+alias arch="ssh -t M700.local tmux new -As0"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
