@@ -1,19 +1,10 @@
-*
-
-!/Desktop
-!/Documents
-!/Downloads
-!/Pictures
-!/Videos
-!/Music
-!/Sites
-
-/*.desktop
-/*.lnk
-
+*.desktop
+*.lnk
 *.swp
 *.DS_Store
 $RECYCLE.BIN
+desktop.ini
 
-node_modules
-vendor
+node_modules/
+vendor/
+__pycache__/
