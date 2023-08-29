@@ -73,7 +73,7 @@
    org-default-notes-file "~/Desktop/org/notes.org"
    org-archive-location "~/Desktop/org/archive.org::* ARCHIVE"
    org-agenda-window-setup 'only-window
-   org-agenda-files (append (directory-files-recursively "~/org" "\.org$"))
+   org-agenda-files (append (directory-files-recursively "~/Desktop/org" "\.org$"))
    org-refile-targets '((org-agenda-files . (:maxlevel . 3)))
    org-refile-use-outline-path 'file
    org-refile-allow-creating-parent-nodes 'confirm
