@@ -1,5 +1,5 @@
-! URxvt.geometry: 400x400
-URxvt.font: xft:Hack:size=13
+URxvt.geometry: 400x400
+URxvt.font: xft:Hack:size=16
 URxvt.letterSpace: -2
 URxvt.background: black
 URxvt.foreground: white
