@@ -18,6 +18,7 @@ plugins=(
 	zoxide 
 	pyenv
 	poetry
+	pass
 )
 
 test -f /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh && source $_
@@ -45,7 +46,7 @@ alias t="tree"
 alias undo="git reset HEAD~1"
 alias cat="bat"
 alias yee="yee --ip=10.0.0.137"
-alias arch="ssh -t M700.local tmux new -As0"
+alias arch="ssh -t M700 tmux new -As0"
 alias make="gmake"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
