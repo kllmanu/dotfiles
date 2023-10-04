@@ -14,6 +14,11 @@
   (setq use-package-always-ensure t
         use-package-enable-imenu-support t))
 
+(use-package exec-path-from-shell
+  :if (memq window-system '(mac ns x))
+  :config
+  (exec-path-from-shell-initialize))
+
 (use-package emacs
   :config
 
@@ -23,6 +28,7 @@
    select-enable-clipboard t
    help-window-select t
    mac-command-modifier 'meta
+   mac-option-modifier nil
    use-dialog-box nil
    desktop-save t
    backup-directory-alist '(("." . "~/.config/emacs/backup"))
@@ -81,6 +87,19 @@
    org-src-window-setup 'current-window
    org-confirm-babel-evaluate nil
    org-M-RET-may-split-line '((default . nil)))
+
+  (org-babel-do-load-languages
+   'org-babel-load-languages '((python . t)))
+
+  (org-link-set-parameters
+   "https"
+   :follow (lambda(path)
+             (call-process-shell-command
+              (format "open -a \"Microsoft Edge\" \"https:%s\"" path) nil 0))
+   "http"
+   :follow (lambda(path)
+             (call-process-shell-command
+              (format "open -a \"Microsoft Edge\" \"http:%s\"" path) nil 0)))
 
   :bind
   ("C-c a" . org-agenda)
