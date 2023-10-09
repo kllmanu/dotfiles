@@ -1,0 +1,9 @@
+[Unit]
+Description=Jupyter Lab
+
+[Service]
+Type=simple
+ExecStart=jupyter lab --no-browser
+
+[Install]
+WantedBy=default.target
