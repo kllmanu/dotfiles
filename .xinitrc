@@ -1,5 +1,5 @@
 xinput --set-prop "AlpsPS/2 ALPS DualPoint Stick" "libinput Accel Speed" 1.0
-# xautolock -locker "i3lock -c 333333" -killer "systemctl suspend" &
+xautolock -locker "systemctl suspend" -time 30 &
 # xss-lock --transfer-sleep-lock -- i3lock -c 333333 --nofork &
 xsetroot -solid "#333333"
 xrdb -merge .Xresources

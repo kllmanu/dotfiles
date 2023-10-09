@@ -1,0 +1,5 @@
+#!/bin/bash
+
+beet remove --delete "path:$(cmus-remote --query | grep -oP '^file\s+\K(.+)')" $@
+cmus-remote -C win-update
+cmus-remote -C player-next
