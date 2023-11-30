@@ -41,6 +41,7 @@ case "$TERM" in
 esac
 
 PS1='\u@\h:\[\e[1m\]\w\[\e[0m\] '
+# PS1='\[\[\e[1m\]\e[35m\]\u@\h\[\e[0m\]:\[\e[1m\]\w\[\e[0m\] '
 
 
 # enable color support of ls and also add handy aliases
@@ -81,7 +82,19 @@ test -f /usr/share/fzf/key-bindings.bash && source $_
 # cd with history
 test -x /usr/bin/zoxide && eval "$(zoxide init bash)"
 
-# pandoc completion
-test -x /usr/bin/pandoc && eval "$(pandoc --bash-completion)"
-
-eval "$(beet completion)"
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+: '
+__conda_setup="$('/home/manu/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/manu/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/manu/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/manu/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+'
+# <<< conda initialize <<<
