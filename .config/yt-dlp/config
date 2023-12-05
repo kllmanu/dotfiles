@@ -1,4 +1,4 @@
--o ~/Downloads/%(playlist)s/%(title)s.%(ext)s
+-o ~/Downloads/%(playlist)s/%(playlist_index)s_%(title)s.%(ext)s
 --download-archive ~/.ytdlp_history
 --cookies-from-browser chrome
 --output-na-placeholder ""
