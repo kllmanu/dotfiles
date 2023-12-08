@@ -31,12 +31,14 @@ settings:
     global: dark
   content.autoplay:
     global: false
+  content.cookies.accept:
+    global: all
   content.javascript.enabled:
     global: true
   content.notifications.enabled:
     https://www.reddit.com: true
   downloads.location.directory:
-    global: ~/tmp/
+    global: ~/Downloads
   downloads.location.prompt:
     global: false
   fonts.default_family:
@@ -49,6 +51,8 @@ settings:
       left: 0
       right: 0
       top: 2
+  statusbar.position:
+    global: bottom
   tabs.indicator.width:
     global: 0
   tabs.padding:

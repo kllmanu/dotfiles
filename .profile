@@ -27,9 +27,8 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 
-export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
-export PATH="$PATH:/opt/anaconda/bin/"
+# Added by Toolbox App
+export PATH="$PATH:/home/manu/.local/share/JetBrains/Toolbox/scripts"
+export PATH="$PATH:/home/manu/anaconda3/bin"
 
 export EDITOR="vim"
-export JUPYTERLAB_DIR=$HOME/.local/share/jupyter/lab
-

@@ -1,2 +1,0 @@
-#!/bin/bash
-beet list "path:$(cmus-remote --query | grep -oP '^file\s+\K(.+)')" -f '$comments' | xargs open

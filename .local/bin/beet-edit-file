@@ -1,5 +1,0 @@
-#!/bin/bash
-
-beet edit "path:$(cmus-remote --query | grep -oP '^file\s+\K(.+)')" $@
-cmus-remote -C win-update
-cmus-remote -C win-sel-cur
