@@ -3,7 +3,7 @@ Description=Jupyter Lab
 
 [Service]
 Type=simple
-ExecStart=%h/anaconda3/bin/jupyter-lab --notebook-dir=/home/manu/Desktop/fhv --no-browser
+ExecStart=%h/anaconda3/bin/jupyter-lab --notebook-dir=/home/manu/Desktop/fhv/ws23/mathe --no-browser
 
 [Install]
 WantedBy=default.target
