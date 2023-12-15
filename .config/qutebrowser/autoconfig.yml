@@ -45,6 +45,8 @@ settings:
     global: Hack
   fonts.default_size:
     global: 13pt
+  scrolling.smooth:
+    global: true
   statusbar.padding:
     global:
       bottom: 2
@@ -53,6 +55,8 @@ settings:
       top: 2
   statusbar.position:
     global: bottom
+  statusbar.show:
+    global: never
   tabs.indicator.width:
     global: 0
   tabs.padding:
