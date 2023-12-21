@@ -102,10 +102,11 @@ alias tt="t -a"
 alias clip="xclip -selection clipboard -i"
 alias ende="trans en:de"
 alias deen="trans de:en"
-alias cat="batcat"
+alias cat="bat"
 alias y="yt-dlp"
 alias yl="yt-dlp -x https://music.youtube.com/playlist?list=LM -o '~/Downloads/likes/%(title)s.%(ext)s'"
+alias x="startx"
 
 
-source /usr/share/doc/fzf/examples/key-bindings.bash
+source /usr/share/fzf/key-bindings.bash
 eval "$(zoxide init bash)"
