@@ -46,7 +46,7 @@ settings:
   fonts.default_size:
     global: 13pt
   scrolling.smooth:
-    global: true
+    global: false
   statusbar.padding:
     global:
       bottom: 2

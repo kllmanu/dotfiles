@@ -1,5 +1,4 @@
-! URxvt.geometry: 400x400
-URxvt.font: xft:MesloLGS NF:size=13
+URxvt.font: xft:Hack:size=13
 URxvt.letterSpace: -2
 URxvt.background: black
 URxvt.foreground: white
@@ -24,7 +23,7 @@ Sxiv.background: #333333
 Sxiv.foreground: #999999
 Sxiv.font: Hack-13
 
-Xft.dpi: 120
+! Xft.dpi: 120
 
 ! black
 *.color0:       black
