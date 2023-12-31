@@ -9,7 +9,7 @@ while true; do
 	date=$(date +"%F %R")
 	battery=$(cat /sys/class/power_supply/BAT0/capacity)
 	xsetroot -name "BAT0 ${battery}% — $date"
-	sleep 30s
+	sleep 5s
 done &
 
 exec dwm
