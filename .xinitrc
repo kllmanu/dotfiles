@@ -1,6 +1,4 @@
 xinput --set-prop "TPPS/2 Elan TrackPoint" "libinput Accel Speed" 1.0
-# xautolock -locker xlock -killer "systemctl suspend" &
-# xss-lock --transfer-sleep-lock -- xlock &
 xsetroot -solid "#333333"
 xrdb -merge .Xresources
 xmodmap .Xmodmap
