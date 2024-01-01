@@ -106,7 +106,8 @@ alias cat="bat"
 alias y="yt-dlp"
 alias yl="yt-dlp -x https://music.youtube.com/playlist?list=LM -o '~/Downloads/likes/%(title)s.%(ext)s'"
 alias x="startx"
-
+alias finc="printf '\33]50;%s%d\007' 'xft:Hack:size=2'"
+alias n="finc; nnn -C"
 
 source /usr/share/fzf/key-bindings.bash
 eval "$(zoxide init bash)"
