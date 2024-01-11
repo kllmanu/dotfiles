@@ -108,6 +108,7 @@ alias yl="yt-dlp -x https://music.youtube.com/playlist?list=LM -o '~/Downloads/l
 alias x="startx"
 alias finc="printf '\33]50;%s%d\007' 'xft:Hack:size=2'"
 alias n="finc; nnn -C"
+alias q="mosh m720q -- tmux new -As 0" 
 
 source /usr/share/fzf/key-bindings.bash
 eval "$(zoxide init bash)"
