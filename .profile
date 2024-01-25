@@ -34,3 +34,4 @@ export PATH="$PATH:/home/manu/.local/bin"
 
 export EDITOR="vim"
 export NNN_COLORS="5623"
+export SFEED_URL_FILE="$HOME/Documents/feedrc"
