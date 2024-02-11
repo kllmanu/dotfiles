@@ -31,6 +31,7 @@ fi
 export PATH="$PATH:/home/manu/.local/share/JetBrains/Toolbox/scripts"
 export PATH="$PATH:/home/manu/anaconda3/bin"
 export PATH="$PATH:/home/manu/.local/bin"
+export PATH="$PATH:/home/manu/Desktop/bin"
 
 export EDITOR="vim"
 export NNN_COLORS="5623"
