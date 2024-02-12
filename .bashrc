@@ -12,13 +12,14 @@ shopt -s globstar
 HISTSIZE=
 HISTFILESIZE=
 
-PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+PS1="\h: $(tput bold)\w $(tput sgr0)"
+PROMPT_COMMAND+=('printf "\033]0;%s: %s\007" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"')
 
 # Alias definitions.
 alias ..="cd .."
 alias ls='ls -h --group-directories-first --color=auto'
-alias ll="ls -Al"
-alias l="ls -l"
+alias ll="ls -AlGg"
+alias l="ls -lGg"
 alias bis="beet import -Asm"
 alias bi="beet import -Am"
 alias gss="git status -s"
@@ -40,8 +41,6 @@ alias bl="bluetoothctl connect 68:B6:91:52:1F:71"
 alias bd="bluetoothctl disconnect"
 alias br="sudo systemctl restart bluetooth.service"
 alias nb="newsboat -u ~/Documents/urls"
-alias ps2="flatpak run net.pcsx2.PCSX2"
-alias psp="flatpak run org.ppsspp.PPSSPP"
 
 source /usr/share/fzf/key-bindings.bash
 eval "$(arduino-cli completion bash)"
