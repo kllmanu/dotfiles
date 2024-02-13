@@ -12,7 +12,7 @@ shopt -s globstar
 HISTSIZE=
 HISTFILESIZE=
 
-PS1="\h: $(tput bold)\w $(tput sgr0)"
+PS1='\h: \[\e[1m\]\w\[\e[0m\] '
 PROMPT_COMMAND+=('printf "\033]0;%s: %s\007" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"')
 
 # Alias definitions.
