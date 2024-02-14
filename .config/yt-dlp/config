@@ -1,7 +1,7 @@
 -o ~/Downloads/%(playlist)s/%(playlist_index)s_%(title)s.%(ext)s
---download-archive ~/.ytdlp_history
+--download-archive ~/Documents/ytdlp_history
 --cookies-from-browser chrome
 --output-na-placeholder ""
+--ignore-errors
 --embed-thumbnail
 --embed-metadata
---ignore-errors
