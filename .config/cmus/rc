@@ -1,5 +1,6 @@
-bind -f library e shell urxvt -e beet-edit-file
-bind -f library E shell urxvt -e beet-edit-file --all
-bind -f library d shell urxvt -e beet-remove-file
-bind -f library D shell beet-remove-file --force
-bind -f library o shell beet-open-url
+bind -f library d shell cmus-delete
+bind -f library o shell cmus-open
+
+set format_playlist=%-17%a %t%= %c %-5%d %{?X!=0?%3X ?    }
+set start_view=sorted
+set mouse=true
