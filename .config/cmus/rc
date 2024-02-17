@@ -1,6 +1,8 @@
-bind -f library d shell cmus-delete
-bind -f library o shell cmus-open
+bind -f common d shell cmus-delete
+bind -f common o shell cmus-open
 
-set format_playlist=%-17%a %t%= %c %-5%d %{?X!=0?%3X ?    }
+set format_playlist=%-18%a %t%= %-5%d %{?X!=0?%3X ?    }
+set tree_width_percent=33
+set tree_width_max=33
 set start_view=sorted
 set mouse=true

@@ -37,7 +37,7 @@ alias xpp="GTK_THEME=adwaita xournalpp"
 alias bl="bluetoothctl connect 68:B6:91:52:1F:71"
 alias bd="bluetoothctl disconnect"
 alias br="sudo systemctl restart bluetooth.service"
-alias nb="newsboat -u ~/Documents/urls"
+alias nb="newsboat -u ~/Documents/feeds"
 
 source /usr/share/fzf/key-bindings.bash
 eval "$(arduino-cli completion bash)"
