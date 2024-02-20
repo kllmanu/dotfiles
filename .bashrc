@@ -38,6 +38,7 @@ alias bl="bluetoothctl connect 68:B6:91:52:1F:71"
 alias bd="bluetoothctl disconnect"
 alias br="sudo systemctl restart bluetooth.service"
 alias nb="newsboat -u ~/Documents/feeds"
+alias pm="pulsemixer"
 
 source /usr/share/fzf/key-bindings.bash
 eval "$(arduino-cli completion bash)"
