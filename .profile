@@ -34,3 +34,4 @@ export PATH="/home/manu/Desktop/bin:$PATH"
 
 export EDITOR="vim"
 export NNN_COLORS="5623"
+export LEDGER_FILE="$HOME/Documents/hledger.journal"
