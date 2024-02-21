@@ -2,6 +2,7 @@
 --download-archive ~/Documents/ytdlp_history
 --cookies-from-browser chrome
 --output-na-placeholder ""
+--restrict-filenames
 --ignore-errors
 --embed-thumbnail
 --embed-metadata
