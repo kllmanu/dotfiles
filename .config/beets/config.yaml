@@ -1,5 +1,0 @@
-directory: ~/Music
-library: ~/Music/beets.db
-plugins: 
-  - fromfilename 
-  - edit
