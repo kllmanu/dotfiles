@@ -1,5 +1,4 @@
 -o ~/Downloads/%(playlist)s/%(playlist_index)s_%(title)s.%(ext)s
---download-archive ~/Documents/ytdlp_history
 --cookies-from-browser chrome
 --output-na-placeholder ""
 --restrict-filenames

@@ -41,5 +41,8 @@ alias nb="newsboat -u ~/Documents/feeds"
 alias pm="pulsemixer"
 
 source /usr/share/fzf/key-bindings.bash
-eval "$(arduino-cli completion bash)"
 eval "$(zoxide init bash)"
+
+if [[ `ps ho command $(ps ho ppid $$)` == 'urxvt' ]]; then
+  clear
+fi
