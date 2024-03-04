@@ -36,3 +36,5 @@ export EDITOR="vim"
 export NNN_COLORS="5623"
 export LEDGER_FILE="$HOME/Documents/hledger.journal"
 export PASSWORD_STORE_DIR="$HOME/Desktop/pass"
+export JUPYTERLAB_DIR=$HOME/.local/share/jupyter/lab
+
