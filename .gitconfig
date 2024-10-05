@@ -1,0 +1,18 @@
+[init]
+defaultBranch = main
+
+[user]
+name = manu
+email = man.koell@gmail.com
+
+[includeIf "gitdir:~/fhv/"]
+path = ~/.gitconfig-fhv
+
+[tag]
+sort = version:refname
+
+[push]
+autoSetupRemote = true
+
+[core]
+excludesFile = ~/.gitexcludes

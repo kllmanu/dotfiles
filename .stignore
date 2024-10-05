@@ -1,0 +1,14 @@
+/.*
+
+/lib/videos/youtube/
+/lib/videos/screencasts/
+/lib/videos/movies/
+/lib/videos/shows/
+/lib/videos/doku/
+
+/Games
+
+node_modules/
+vendor/
+
+*.swp

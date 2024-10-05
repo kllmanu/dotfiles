@@ -1,0 +1,11 @@
+Sxiv.background: #333333
+Sxiv.foreground: #999999
+Sxiv.font: Hack-13
+Xft.dpi: 96
+
+dwm.normbgcolor: #222222
+dwm.normbordercolor: #444444
+dwm.normfgcolor: #bbbbbb
+dwm.selfgcolor: #eeeeee
+dwm.selbordercolor: #005577
+dwm.selbgcolor: #005577

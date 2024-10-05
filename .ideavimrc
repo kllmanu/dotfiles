@@ -1,0 +1,23 @@
+source ~/.vimrc
+
+set which-key
+set commentary
+set NERDTree
+set surround
+
+set notimeout
+set clipboard^=ideaput
+set scrolloff=5
+let mapleader=" "
+
+nnoremap <M-o> <C-w><C-w>
+nnoremap <M-k> :action MethodUp<CR>
+nnoremap <M-j> :action MethodDown<CR>
+
+" doesn't work in nerd tree :(
+nnoremap <M-n> :action NewClass<CR>
+nnoremap <M-p> :action NewDir<CR>
+
+" also that :action Generate could be useful
+
+let g:WhichKey_ShowVimActions = "true"
