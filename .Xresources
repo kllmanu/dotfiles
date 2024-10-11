@@ -3,9 +3,23 @@ Sxiv.foreground: #999999
 Sxiv.font: Hack-13
 Xft.dpi: 96
 
-dwm.normbgcolor: #222222
 dwm.normbordercolor: #444444
+dwm.normbgcolor: #222222
 dwm.normfgcolor: #bbbbbb
-dwm.selfgcolor: #eeeeee
-dwm.selbordercolor: #005577
-dwm.selbgcolor: #005577
+
+! sky
+dwm.selbordercolor: #97cff1
+dwm.selbgcolor: #97cff1
+dwm.selfgcolor: #333333
+
+! lavender
+! dwm.selbordercolor: #c0a9d2
+! dwm.selbgcolor: #c0a9d2
+
+! rust
+! dwm.selbordercolor: #ee7551
+! dwm.selbgcolor: #ee7551
+
+! gold
+! dwm.selbordercolor: #ffdc5f
+! dwm.selbgcolor: #ffdc5f
