@@ -48,6 +48,12 @@ alias red="redshift -O 4500"
 alias blue="redshift -x"
 alias pm="pulsemixer"
 alias idea="idea nosplash"
+alias p="pcmanfm"
+alias xpp="GTK_THEME=adwaita xournalpp"
+alias autorem='orphans=$(pacman -Qdtq); [ -z "$orphans" ] && echo "There are no orphaned packages" || sudo pacman -Rsc $orphans'
+alias de="setxkbmap de"
+alias us="setxkbmap us"
+alias xm="xmodmap ~/.Xmodmap"
 
 source /usr/share/fzf/key-bindings.bash
 
